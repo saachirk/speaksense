@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+frontend/node_modules/
+frontend/dist/
+
+models/*.pkl
+outputs/*
+!outputs/.gitkeep
+datasets/processed/
+datasets/augmented/
+datasets/audio_samples/
+
+*.log
+*.tmp
+*.wav
+
+!sample.wav
+# Secrets
+.env
+*.env
